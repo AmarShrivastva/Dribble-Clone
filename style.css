@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    align-items: center;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.options a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    padding: 0px 16px;
+}
+
+.btns{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.search{
+    background-color: rgb(244, 245, 251);
+    border: none;
+    font-size: 18px;
+    padding: 10px 24px;
+    border-radius: 100px;
+}
+
+.login{
+    background-color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.signup{
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 600px;
+    padding: 15px 24px;
+    border: none;
+    border-radius: 100px;
+}
+
+.hero{
+    margin: 64px auto;
+    width: 1400px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 10px 0px; 
+}
+
+.man-image{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.profile{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.name{
+    margin: 0px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.follow{
+    margin-top: 2px;
+    color: gray;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.action{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.heart{
+    background-color: white;
+    border: none;
+    border: 0.5px solid rgb(222, 218, 218);
+    padding:  5px 10px;
+    border-radius: 50%;
+}
+
+.touch{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    line-height: 38px;
+    border: none;
+    padding: 4px 20px;
+    border-radius: 50px;
+}
+
+.card-image{
+    margin-top: 24px;
+    width: 1400px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.text{
+    width: 752px;
+    font-size: 24px;
+    margin: 30px auto 30px auto;
+}
+
+.hero2{
+    border-top: 1px solid rgb(184, 176, 176);
+    margin-top: 250px;
+    position: relative;
+    height: 290px;
+}
+
+.man{
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: end;
+    width: 300px;
+}
+
+.man-image2{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+
+.man-name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.man-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(75, 73, 73);
+}
+
+.more{
+    display: flex;
+    justify-content: space-between;
+}
+
+.moreby{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.view-profile{
+    font-size: 20px;
+    color: rgb(33, 32, 32);
+}
+
+.small-cards{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.small-cards img{
+    width: 300px;
+}
+
+.footer{
+    margin: 300px auto;
+    margin-bottom: 50px;
+    width: 1400px;
+
+}
+
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    gap: 40px;
+}
+
+.social{
+    width: 200px;
+    display: flex;
+    gap: 20px;
+    align-items: end;
+}
+
+.social img{
+    width: 24px;
+    height: 24px;
+}
+
+.terms-text{
+    font-size: 16px;
+    color: gray;
+}
+
+.conditions{
+    display: flex;
+    gap: 18px;
+}
+
+.terms{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 24px;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+}
